@@ -51,6 +51,7 @@ background-size: cover;
 }
 .songList{
     flex-basis: 35%;
+    overflow-y:scroll;
 }
 .songItem{
 
@@ -85,7 +86,7 @@ background-size: cover;
 /* container finish */
 
 .bottom{
-    height: 13vh;
+    height: 12vh;
     background-color: #00000061;
     color: white;
     position: fixed;
@@ -118,4 +119,36 @@ background-size: cover;
     width: 50px;
     opacity: 0;
     transition: opacity 0.4s;
+}
+
+
+
+
+@media(max-width:950px) {
+.songList{
+    flex-basis: 100%;
+}
+}
+
+
+
+@media(max-width:370px) {
+    
+    .songList {
+        flex-basis: 100%;
+        overflow-y: scroll;
+    }
+    .songItem{
+        font: 10px;
+    }
+    #allSongs{
+        font-size: 10px;
+    }
+    .icons{
+        margin-top: 30px;
+    }
+    .songInfo{
+        top: 14px;
+    }
+
 }
