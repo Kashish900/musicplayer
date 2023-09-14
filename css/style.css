@@ -51,7 +51,6 @@ background-size: cover;
 }
 .songList{
     flex-basis: 35%;
-    overflow-y:scroll;
 }
 .songItem{
 
