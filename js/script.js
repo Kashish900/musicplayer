@@ -2,55 +2,55 @@
 
 var SongList = [{
     id: '0',
-    img: '../images/1.jpg',
+    img: 'images/1.jpg',
     name: 'Lehnga Jass Manak',
     duration: '05:34'
 },
 {
     id: '1',
-    img: '../images/2.jpg',
+    img: 'images/2.jpg',
     name: 'Chal Woh Choware ',
     duration: '02:50'
 },
 {
     id: '2',
-    img: '../images/3.jpg',
+    img: 'images/3.jpg',
     name: 'Changi kismat wali',
     duration: '06:34'
 },
 {
     id: '3',
-    img: '../images/4.jpg',
+    img: 'images/4.jpg',
     name: 'Gal Karke',
     duration: '04:45'
 },
 {
     id: '4',
-    img: '../images/5.jpg',
+    img: 'images/5.jpg',
     name: 'Jatti Da Crush',
     duration: '05:23'
 },
 {
     id: '5',
-    img: '../images/6.jpg',
+    img: 'images/6.jpg',
     name: 'Kesariya Tera',
     duration: '01:34'
 },
 {
     id: '6',
-    img: '../images/7.jpg',
+    img: 'images/7.jpg',
     name: 'Main Tan Vi Pyar Karda',
     duration: '02:34'
 },
 {
     id: '7',
-    img: '../images/8.jpg',
+    img: 'images/8.jpg',
     name: 'Malang Sajna',
     duration: '04:34'
 },
 {
     id: '8',
-    img: '../images/8.jpg',
+    img: 'images/8.jpg',
     name: 'Shining in the setting ',
     duration: '04:34'
 },

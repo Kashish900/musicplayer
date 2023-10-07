@@ -50,7 +50,16 @@ background-image: url('../images/background.jpeg');
 background-size: cover;
 }
 .songList{
-    flex-basis: 35%;
+    flex-basis: 40%;
+}
+.songBanner{
+    flex-basis: 60%;  
+}
+.songBanner img{
+    margin-top: 20px;
+    margin-left: 100px;
+    max-width: 30vw;
+
 }
 .songItem{
 
@@ -78,7 +87,8 @@ background-size: cover;
     margin-bottom: 20px;
 }
 #allSongs{
-   overflow: hidden;
+    overflow-y: scroll;
+    max-height: 57vh;
 }
 
 
@@ -121,12 +131,29 @@ background-size: cover;
 }
 
 
+@media(max-width:1250px) {
+    .songList{
+        flex-basis: 100%;
+    }
+    .songBanner img{
+        margin-top: 70px;
+    }
+    #allSongs{
+        max-height: 55vh;
+    }
+    
+    }
+
 
 
 @media(max-width:950px) {
-.songList{
-    flex-basis: 100%;
+.songBanner{
+    display: none; 
 }
+#allSongs{
+    max-height: 57vh;
+}
+
 }
 
 
@@ -135,7 +162,6 @@ background-size: cover;
     
     .songList {
         flex-basis: 100%;
-        overflow-y: scroll;
     }
     .songItem{
         font: 10px;
@@ -149,5 +175,9 @@ background-size: cover;
     .songInfo{
         top: 14px;
     }
+    .songBanner{
+        display: none;  
+    }
+    
 
 }
