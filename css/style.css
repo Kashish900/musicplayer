@@ -22,6 +22,10 @@ nav ul{
 nav ul li{
     padding: 0 12px;
 }
+nav ul li a{
+   text-decoration: none;
+   color: white;
+}
 .brand img{
     width: 40px;
     padding: 0 8px;
@@ -88,7 +92,11 @@ background-size: cover;
 }
 #allSongs{
     overflow-y: scroll;
+    scrollbar-width: none;
     max-height: 57vh;
+}
+#allSongs::-webkit-scrollbar{
+    display: none;
 }
 
 
@@ -141,6 +149,7 @@ background-size: cover;
     #allSongs{
         max-height: 55vh;
     }
+   
     
     }
 
@@ -151,7 +160,7 @@ background-size: cover;
     display: none; 
 }
 #allSongs{
-    max-height: 57vh;
+    max-height: 51vh;
 }
 
 }
@@ -177,6 +186,10 @@ background-size: cover;
     }
     .songBanner{
         display: none;  
+    }
+
+    .songItem >span{
+        width: 50px;
     }
     
 
